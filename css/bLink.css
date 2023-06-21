@@ -1,0 +1,37 @@
+body {
+    background: black;
+    color: orange;
+    box-shadow:
+      inset 0px 0px 10px 5px red,
+      inset 0px 0px 10px 5px blue,
+      inset 0px 0px 10px 5px green,
+      0px 0px 5px 5px yellow,
+      0px 0px 10px 15px green,
+      0px 0px 10px 25px orange,
+      0px 0px 10px 35px purple;
+}
+
+a {
+    color:red;
+}
+
+a:visited {
+    color:purple;
+}
+
+/*
+.prompt {
+    color:beige;
+    -webkit-text-stroke-color: black;
+}
+*/
+
+/* scrollbar track */
+.description::-webkit-scrollbar-track {
+  background: blue;
+}
+
+/* scrollbar handle */
+.description::-webkit-scrollbar-thumb {
+  background: red;
+}

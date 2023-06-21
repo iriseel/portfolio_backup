@@ -1,0 +1,30 @@
+body {
+        background:red;
+    color:yellow;
+    box-shadow:0px 0px 15px 30px red;
+}
+
+a {
+    color:white;
+}
+
+a:visited {
+    color:black;
+}
+
+/*
+.prompt {
+    color:beige;
+    -webkit-text-stroke-color: black;
+}
+*/
+
+/* scrollbar track */
+.description::-webkit-scrollbar-track {
+  background: yellow;
+}
+
+/* scrollbar handle */
+.description::-webkit-scrollbar-thumb {
+  background: black;
+}

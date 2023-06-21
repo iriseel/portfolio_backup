@@ -1,0 +1,40 @@
+body {
+    background:black;
+    color:white;
+    box-shadow: 
+        inset 0px 0px 10px 5px rgba(251, 160, 63, 1),
+          inset 0px 0px 10px 5px rgba(184, 82, 238, 1),
+          inset 0px 0px 10px 5px rgba(81, 148, 194, 1),
+          0px 0px 5px 5px rgba(81, 148, 194, 1),
+          0px 0px 10px 15px rgba(152, 169, 125, 1),
+          0px 0px 10px 25px rgba(252, 70, 107, 1);
+}
+
+#homepage {
+  background:black;
+}
+
+a {
+    color:rgba(251, 160, 63, 1);
+}
+
+a:visited {
+    color:rgba(252, 70, 107, 1);
+}
+
+/*
+.prompt {
+    color:beige;
+    -webkit-text-stroke-color: black;
+}
+*/
+
+/* scrollbar track */
+.description::-webkit-scrollbar-track {
+  background: rgba(252, 70, 107, 1);
+}
+
+/* scrollbar handle */
+.description::-webkit-scrollbar-thumb {
+  background: rgba(251, 160, 63, 1);
+}

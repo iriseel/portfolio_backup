@@ -1,0 +1,44 @@
+body {
+    background:#fffad9;
+    color:#ff00d1;
+    box-shadow:0px 0px 15px 30px #fffad9;
+}
+
+.wordbook .pink {
+    color:#ff00d1;
+}
+
+.wordbook .green {
+    color:#009432;
+}
+
+.wordbook .orange {
+    color:#ffb607;
+}
+
+a {
+    color:#009432;
+}
+
+a:visited {
+    color:#ffb607;
+}
+
+/*
+.prompt {
+    color:#fffad9;
+    -webkit-text-stroke-color: #ffb607;
+}*/
+
+
+
+/* scrollbar track */
+.description::-webkit-scrollbar-track {
+  background: #009432;
+}
+
+/* scrollbar handle */
+.description::-webkit-scrollbar-thumb {
+  background: #ffb607;
+}
+
